@@ -1,0 +1,48 @@
+/* AGOGI — Spartan 3D Anatomy */
+#agogi-anatomy3d {
+  color: #f2d58d;
+  background: linear-gradient(160deg, #101713, #090b0a);
+  border: 1px solid #a88642;
+  border-radius: 18px;
+  padding: 14px;
+  overflow: hidden;
+}
+
+#agogi-anatomy3d canvas {
+  display: block;
+  width: 100%;
+  height: 420px;
+  touch-action: none;
+}
+
+#agogi-anatomy3d button {
+  background: #1b251d;
+  color: #f2d58d;
+  border: 1px solid #a88642;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+#agogi-anatomy3d button:focus-visible {
+  outline: 2px solid #d8ad55;
+}
+
+.agogi-3d-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.agogi-3d-info {
+  padding: 14px;
+  border-top: 1px solid #735a30;
+  line-height: 1.5;
+}
+
+.agogi-3d-info h3 {
+  color: #e7bd66;
+  margin: 0 0 8px;
+}
